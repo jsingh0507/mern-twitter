@@ -9,11 +9,12 @@ const { isProduction } = require('./config/keys');
 
 require('./models/User');
 require('./config/passport');
+require('./models/Tweet');
 const passport = require('passport');
 const usersRouter = require('./routes/api/users');
 const tweetsRouter = require('./routes/api/tweets');
 const csrfRouter = require('./routes/api/csrf');
-
+// const tweets = require('./routes/api/tweets');
 const app = express();
 
 app.use(logger('dev'));
