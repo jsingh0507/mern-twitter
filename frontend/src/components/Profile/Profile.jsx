@@ -18,7 +18,7 @@ function Profile () {
   } else {
     return (
       <>
-        <h2>All of {currentUser.username}'s Tweets</h2>
+        <h2>All of {currentUser.username} Tweets</h2>
         {userTweets.map(tweet => (
           <TweetBox
             key={tweet._id}
