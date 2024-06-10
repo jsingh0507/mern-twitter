@@ -6,6 +6,9 @@
     "start": "node ./bin/www",
     "dev": "dotenv nodemon ./bin/www"
   },
+  "engines": {
+    "node": "18.19"
+  },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "bcryptjs": "^2.4.3",
